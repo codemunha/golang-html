@@ -28,6 +28,7 @@ func main() {
 				{Title: "Task 1 is here", Done: false},
 				{Title: "Task 2", Done: true},
 				{Title: "Task 3 last", Done: true},
+				{Title: "Task 4 final", Done: true},
 			},
 		}
 		tmpl.Execute(w, data)
